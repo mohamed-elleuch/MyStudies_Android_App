@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_map"
+        android:icon="@drawable/icon_search"
+        android:title="carte"
+        android:showAsAction="never" />
+
+
+    <item android:id="@+id/item_contact"
+        android:icon="@drawable/icon_search"
+        android:title="contact"
+        android:showAsAction="never" />
+
+</menu>

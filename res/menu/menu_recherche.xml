@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.master.henda.master_prof.Recherche">
+
+
+        <!-- S'authentifier -->
+        <item android:id="@+id/action_authentification"
+            android:icon="@drawable/ic_launcher"
+            android:title="S'authentifier"
+            android:showAsAction="never" />
+
+        <!-- deconnexion -->
+        <item android:id="@+id/action_deconnexion"
+            android:icon="@drawable/icon_delete"
+            android:title="Déconnexion"
+            android:showAsAction="never" />
+
+
+
+    </menu>
+
+

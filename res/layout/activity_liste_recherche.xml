@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Nom_institut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ISIMSF"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#ff6861"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+
+
+            <TextView
+                android:id="@+id/Adresse_institut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="route tunis rue el ons"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#ff6861"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/Contact_institut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="isimsf@gmail.com"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#ff6861"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+
+            <TextView
+                android:id="@+id/Tel_institut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="74555555"
+                android:textAppearance="?android:attr/textAppearance"
+                android:textColor="#ff6861"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+
+        <ImageView
+            android:id="@+id/imageViewprtphoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_launcher"
+            android:layout_gravity="right" />
+
+
+        <TextView
+            android:id="@+id/Ville_institut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sfax"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="#ff6861"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

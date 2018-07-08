@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#01579B"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+     >
+        <TextView
+            android:text="Test   test"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/logo_splash"
+            android:src="@drawable/logo"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+           />
+
+        <TextView android:text="Faciliter votre Etude avec les services Proposées"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo_splash"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/t1"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

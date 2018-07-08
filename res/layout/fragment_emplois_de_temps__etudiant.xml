@@ -1,0 +1,295 @@
+<HorizontalScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/horizontalScrollView" >
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.master.henda.mes_etudes.emplois_de_temps">
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp">
+
+
+
+
+
+
+
+
+
+
+            <TableRow
+                android:id="@+id/tableRowBB"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/T1" android:text="..."
+                    android:layout_weight="1" android:background="#90CAF9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/T2" android:text="Lundi"
+                    android:layout_weight="1" android:background="#90CAF9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/T3"
+                    android:text="Mardi"
+                    android:layout_weight="1" android:background="#90CAF9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/T4" android:text="Mercredi"
+                    android:layout_weight="1" android:background="#90CAF9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/T5" android:text="Jeudi"
+                    android:layout_weight="1" android:background="#90CAF9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/T7"
+                    android:text="Vendredi"
+                    android:layout_weight="1" android:background="#90CAF9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/T8"
+                    android:text="Samedi"
+                    android:layout_weight="1" android:background="#90CAF9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+            </TableRow>
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/TextView09" android:text="Séance 1"
+                    android:layout_weight="1" android:background="#42A5F5"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView10" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView12" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView13" android:text="...."
+                    android:layout_weight="1" android:background="#dcdcdc"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView14" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView15" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView16" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+            </TableRow>
+
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/TextView17" android:text="Séance 2"
+                    android:layout_weight="1" android:background="#42A5F5"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView18" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView19" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView20" android:text="...."
+                    android:layout_weight="1" android:background="#dcdcdc"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView21" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView22" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView23" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+            </TableRow>
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/TextView24" android:text="Séance 3"
+                    android:layout_weight="1" android:background="#42A5F5"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView25" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView26" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView27" android:text="...."
+                    android:layout_weight="1" android:background="#dcdcdc"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView28" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView29" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView30" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+            </TableRow>
+
+
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/TextView31" android:text="Séance 4"
+                    android:layout_weight="1" android:background="#42A5F5"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView32" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView33" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView34" android:text="...."
+                    android:layout_weight="1" android:background="#dcdcdc"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView35" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView36" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView37" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+            </TableRow>
+
+
+            <!-- Row 3 with 2 columns -->
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:id="@+id/TextView38" android:text="Séance 5"
+                    android:layout_weight="1" android:background="#42A5F5"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView39" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView40" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView41" android:text="...."
+                    android:layout_weight="1" android:background="#dcdcdc"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView42" android:text="...."
+                    android:layout_weight="1" android:background="#d3d3d3"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView43" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+                <TextView
+                    android:id="@+id/TextView44" android:text="...."
+                    android:layout_weight="1" android:background="#cac9c9"
+                    android:textColor="#000000"
+                    android:padding="20dip" android:gravity="center"/>
+            </TableRow>
+
+
+
+        </TableLayout>
+
+</FrameLayout>
+</HorizontalScrollView>

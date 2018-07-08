@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Profile" android:title="Profile" android:icon="@drawable/ic_profile"/>
+    <item android:id="@+id/Consulter_Notes" android:title="Consulter Notes" android:icon="@drawable/ic_notes"/>
+    <item android:id="@+id/Consulter_Avis" android:title="Consulter Avis" android:icon="@drawable/ic_avis"/>
+    <item android:id="@+id/Emplois_de_temps" android:title="Emplois de temps" android:icon="@drawable/ic_emploisdetemps"/>
+    <item android:id="@+id/Demande" android:title="Demande" android:icon="@drawable/ic_menu_send"/>
+
+</menu>

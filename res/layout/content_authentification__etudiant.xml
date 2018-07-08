@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#01579B"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+
+
+
+
+
+
+    <!-- Login Button -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/CIN"
+        android:hint="CIN"
+        android:textColorHint="#B3E5FC"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password"
+        android:hint="mot de passe"
+        android:textColorHint="#B3E5FC"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="S'authentifier"
+        android:background="#03A9F4"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+
+    <!-- Link to Login Screen -->
+
+    <Button
+        android:id="@+id/btnLinkToRegisterScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:background="@null"
+        android:text="vous n'avez pa de compte? Inscrivez vous"
+        android:textAllCaps="false"
+        android:textColor="#03A9F4"
+        android:textSize="18dp" />
+</LinearLayout>
+
+
+

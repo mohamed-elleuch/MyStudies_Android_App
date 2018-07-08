@@ -1,0 +1,245 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.master.henda.mes_etudes.ProfileEnseignant_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom :"
+                android:id="@+id/Nom"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "40dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prenom :"
+                android:id="@+id/Prenom"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/prenom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "40dp"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Niveau :"
+                android:id="@+id/Titre"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/niveau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "40dp"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:id="@+id/Email"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/mail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "40dp"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ville :"
+                android:id="@+id/Ville"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/ville"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "40dp"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CIN :"
+                android:id="@+id/CIN"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/cin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "40dp"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="N° Tel :"
+                android:id="@+id/NumTel"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "40dp"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculté :"
+                android:id="@+id/Facultés"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/fac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft = "40dp"
+                android:layout_marginTop="40dp"
+                android:textSize="20dp"
+                android:textColor="#01579B"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Master_prof</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Acceuil</string>
+    <string name="title_activity_inscription">Inscription</string>
+    <string name="title_activity_authentification">Authentification</string>
+    <string name="title_activity_liste_recherche">liste_recherche</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_profile_etudiant">profile_etudiant</string>
+    <string name="title_activity_recherche">Recherche</string>
+    <string name="speciallite"> Choisir votre spécialité </string>
+    <string name="ville"> Choisir la ville </string>
+    <string name="typeeavis"> Choisir le type davis </string>
+    <string-array name="specialite">
+        <item>Informatique</item>
+        <item>Medecine</item>
+        <item>Science</item>
+        <item>Economie</item>
+        <item>Math</item>
+        <item>Chimie</item>
+        <item>preparatoire</item>
+    </string-array>
+
+
+    <string-array name="ville">
+        <item>Tunis</item>
+        <item>Sfax</item>
+        <item>Sousse</item>
+        <item>Hammamet</item>
+        <item>Carthage</item>
+        <item>Kairouan</item>
+        <item>Monastir</item>
+        <item>La Marsa</item>
+        <item>Gabès</item>
+        <item>Le kef</item>
+        <item>Sidi Bou Said</item>
+        <item>Tabarka</item>
+        <item>Nabeul</item>
+
+    </string-array>
+
+
+    <string-array name="typeavis">
+        <item>Rattrappage</item>
+        <item>Examen</item>
+    </string-array>
+
+    <string name="title_activity_confirmation">Confirmation</string>
+    <string name="title_activity_confirmation_etudiant">Confirmation_etudiant</string>
+    <string name="title_activity_confirmation_enseignant">Confirmation_enseignant</string>
+    <string name="title_activity_inscrit_enseignant">Inscrit_enseignant</string>
+    <string name="title_activity_authentification_enseignant">Authentification_enseignant</string>
+    <string name="title_activity_authentification_etudiant">Authentification_etudiant</string>
+    <string name="title_activity_inscrit_etudiant">Inscrit_etudiant</string>
+    <string name="title_activity_details">Details</string>
+    <string name="title_activity_map">Map</string>
+
+
+    <string name="title_navigation_interface">Interface de navigation</string>
+    <string name="title_activity_les_notes">Les_notes</string>
+    <string name="title_activity_profile_enseignant">Profile_enseignant</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Notes">Notes</string>
+    <string name="Emplois_de_temps">Emplois de temps</string>
+    <string name="Avis">Avis</string>
+    <string name="Profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_etudiant">Etudiant</string>
+    <string name="title_activity_authentification__enseignant">Authentification_Enseignant</string>
+    <string name="title_activity_authentification__etudiant">Authentification_Etudiant</string>
+    <string name="title_activity_inscrit__enseignant">Inscrit_Enseignant</string>
+    <string name="title_activity_inscrit__etudiant">Inscrit_Etudiant</string>
+    <string name="title_activity_contact">contact</string>
+
+
+</resources>
