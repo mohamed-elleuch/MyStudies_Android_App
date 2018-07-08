@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.master.henda.mes_etudes">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_ASSISTED_GPS" />
+    <uses-permission android:name="android.permission.WRITE_SOCIAL_STREAM" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.master.henda.mes_etudes.app.permission.MAPS_RECEIVE" />
+
+    <permission
+        android:name="com.master.henda.mes_etudes.app.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- Optional permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Etudiant"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Profile_enseignant" />
+        <activity android:name=".Recherche" />
+        <activity android:name=".Details" />
+        <activity android:name=".liste_recherche" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Navegar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".VerificationCode" />
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_etudiant"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Authentification_Enseignant"
+            android:label="@string/title_activity_authentification__enseignant"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.master.henda.mes_etudes.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Authentification_Etudiant"
+            android:label="@string/title_activity_authentification__etudiant"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.master.henda.mes_etudes.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Inscrit_Enseignant"
+            android:label="@string/title_activity_inscrit__enseignant"
+            android:parentActivityName=".Authentification_Enseignant"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.master.henda.mes_etudes.Authentification_Enseignant" />
+        </activity>
+        <activity
+            android:name=".Inscrit_Etudiant"
+            android:label="@string/title_activity_inscrit__etudiant"
+            android:parentActivityName=".Authentification_Etudiant"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.master.henda.mes_etudes.Authentification_Etudiant" />
+        </activity>
+        <activity
+            android:name=".contact"
+            android:label="@string/title_activity_contact"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
